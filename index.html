@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title ">ESSENZA MAKEUP</h1>
+            <button class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-nos" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-bag me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-cart2"></i>
+                            Nossos produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-heart"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div class="carousel slide " data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./img/slid/Design sem nome.png" class="w-100" alt="" >
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/slid/Untitled design.png"  class="w-100" alt="" >
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/slid/Untitled design 1.png" class="w-100" alt="" >
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2 class="text-center section-title text-colored">Sobre Nós</h2>
+                            <p>
+                                O universo da maquiagem é incrível, não é mesmo? A maquiagem nos permite expressar sentimentos, impor nossa opinião e transbordar nossa atitude. Tudo isso, usando cores ou simplesmente não usando nada. O que reflete no espelho todos os dias quer dizer algo diferente, desde o batom vermelho até o nude ou a ausência de batom. E porque somos tão apaixonados, trouxemos uma categoria REPLETA de produtos incríveis.
+                            </p>
+                            <p>
+                                Aqui na ESSENZA MAKEUP você encontra uma seleção incrível de produtos de maquiagem das melhores marcas nacionais e importadas com preços imperdíveis.
+                            </p>
+                            <p>
+                                Confira diversas opções de base, blush, batom líquido, lápis de olho, máscara de cílios, pó facial, pincel de maquiagem, tudo o que você precisa para criar desde produções mais básicas até maquiagens mais elaboradas.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/section/beauty-6768214_1280.jpg" class="d-block w-100 img-thumbnail" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Todos os <span class="text-colored">nossos serviços</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./img/section/cosmetics-166774_1280.jpg" class="w-100 d-block rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-cart-fill"></i>
+                            Venda de cosméticos</h3>
+                            <p>
+                                Essenza Makeup é uma loja online especializada em maquiagens nacionais e importadas. Temos batom, paleta, base e mais. Tudo em até 10x Sem Juros!
+                            </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./img/clientes/woman-3.jpg" class="w-100 d-block rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-camera-fill"></i>
+                            Ensaios fotograficos</h3>
+                            <p>
+                                O ensaio fotográfico é uma maneira criativa de registrar momentos especiais e criar lembranças duradouras por meio de fotos bem produzidas por um bom profissional de fotografia.
+                            </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./img/clientes/woman-2.jpg" class="w-100 d-block rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-cart-fill"></i>
+                            Design de maquiagem</h3>
+                            <p>
+                                Com um compromisso firmado com a qualidade e a inovação, a Essenza Makeup oferece um serviço de maquiagem profissional pensado especialmente para atender todas as suas necessidades.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="produtos">
+            <div class="container">
+                <div class="row mb-2">
+                    <h2 class="section-title text-center">Nossos <span class="text-colored">produtos</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button data-bs-toggle="tab" data-bs-target="#batom" class="fw-bold text-start  nav-link text-colored active" type="button">Batom</button>
+                            <button data-bs-toggle="tab" data-bs-target="#bases" class="fw-bold text-start  nav-link text-colored" type="button">Bases</button>
+                            <button data-bs-toggle="tab" data-bs-target="#corretivo" class="fw-bold text-start  nav-link text-colored" type="button">Corretivo</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="batom">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/Produtos/makeup-6698881_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Batom Vermelho</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 52,24</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/Produtos/makeup-6698881_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Batom Vermelho</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 52,24</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/Produtos/makeup-6698881_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Batom Vermelho</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 52,24</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/Produtos/makeup-6698881_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Batom Vermelho</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 52,24</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bases">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded w-100" src="img/Produtos/eyeliner-4713577_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Base para rosto</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 60,99</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/Produtos/eyeliner-4713577_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Base para rosto</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 60,99</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/Produtos/eyeliner-4713577_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Base para rosto</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 60,99</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/Produtos/eyeliner-4713577_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Base para rosto</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 60,99</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="corretivo">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/Produtos/cosmetics-7512332_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Corretivo</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 75,99</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/Produtos/cosmetics-7512332_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Corretivo</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 75,99</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/Produtos/cosmetics-7512332_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Corretivo</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 75,99</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/Produtos/cosmetics-7512332_1280.jpg" alt="">
+                                        <h4 class="text-colored fw-bold text-center mt-2">Corretivo</h4>
+                                        <h5 class="card-title text-center mb-2">R$ 75,99</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <a href="" class="btn btn-primary w-100"> Comprar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center section-title">Produtos <span class="text-colored">em promoção</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./img/Produtos/Promo.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-colored fw-bold pt-2 text-center">Kit maquiagem</h4>
+                            <h5 class="card-title text-center mb-2 mt-2">R$ 290,99</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="" class="btn btn-primary btn-compra w-100"> Comprar</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./img/Produtos/Promo.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-colored fw-bold pt-2 text-center">Kit maquiagem</h4>
+                            <h5 class="card-title text-center mb-2 mt-2">R$ 290,99</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="" class="btn btn-primary btn-compra w-100"> Comprar</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./img/Produtos/Promo.jpg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-colored fw-bold pt-2 text-center">Kit maquiagem</h4>
+                            <h5 class="card-title text-center mb-2 mt-2">R$ 290,99</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="" class="btn btn-primary btn-compra w-100"> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center section-title">Entre <span class="text-colored">em contato</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu E-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="tel" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="menssagem" class="form-label fw-bold text-colored">Sua menssagem</label>
+                                <textarea style="resize: none;" class="form-control" id="menssagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold w-100">Enviar</button>
+                        </form>
+                    </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais</h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored ms-1 me-1"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço</h3>
+                                <p>
+                                    Rua teste Exemplo n° 123, Bairro Bootstrap - Barreiras - BA
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

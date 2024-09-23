@@ -1,0 +1,67 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #BA55D3;
+}
+
+.section-title {
+    font-family: "Lobster", sans-serif;
+
+}
+
+header .nav .nav-link.active {
+    background-color: #fff;
+    color: #BA55D3;
+}
+header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: white;
+}
+
+#sobre-nos,
+#produtos,
+#contato {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #BA55D3;
+}
+
+.nav-produtos .nav-link.active,
+#contato button {
+    background-color: #BA55D3;
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #BA55D3;
+}
+
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+}
